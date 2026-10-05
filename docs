@@ -1,1 +1,98 @@
 
+<!DOCTYPE html><html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Мой сайт</title><style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #222;
+}
+
+header {
+    background: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    margin: 0 0 10px;
+    font-size: 30px;
+}
+
+header p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 700px;
+    margin: 25px auto;
+    padding: 0 15px;
+}
+
+.card {
+    background: white;
+    padding: 22px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.button {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background: #1d4ed8;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #777;
+    font-size: 14px;
+}
+</style></head><body><header>
+    <h1>🌟 Добро пожаловать!</h1>
+    <p>Это мой личный сайт</p>
+</header><div class="container"><div class="card">
+    <h2>👋 Привет!</h2>
+    <p>Добро пожаловать на мой сайт. Здесь скоро появится много интересного.</p>
+</div>
+
+<div class="card">
+    <h2>📱 Мой Telegram</h2>
+    <p>Следите за новостями и обновлениями.</p>
+    <a class="button" href="https://t.me/" target="_blank">
+        Открыть Telegram
+    </a>
+</div>
+
+<div class="card">
+    <h2>🌐 Скоро здесь будет больше</h2>
+    <p>Мы постепенно добавим новые разделы и возможности.</p>
+</div>
+
+</div><footer>
+    © 2026 Мой сайт
+</footer></body>
+</html>
